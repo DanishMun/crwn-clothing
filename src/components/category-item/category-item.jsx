@@ -1,7 +1,7 @@
 import "./category-item-style.scss";
 
-const CategoryItem = ({ catagories }) => {
-  const { title, imageUrl } = catagories;
+const CategoryItem = ({ categories }) => {
+  const { title, imageUrl } = categories;
   return (
     <div className="category-container">
       <div
